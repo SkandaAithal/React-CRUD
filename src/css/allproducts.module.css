@@ -1,0 +1,43 @@
+.cardcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 3rem;
+}
+.card {
+  padding: 1rem;
+  flex: 1;
+  display: grid;
+  gap: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(4, 40, 119);
+  color: white;
+  border-radius: 10px;
+  align-self: stretch;
+}
+
+.view {
+  padding: 0.5rem;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+}
+
+.delete {
+  padding: 0.5rem;
+  border: none;
+  background-color: rgb(226, 43, 43);
+  color: white;
+  border-radius: 5px;
+}
+.update {
+  padding: 0.5rem;
+  border: none;
+  background-color: rgb(80, 226, 43);
+  color: white;
+  border-radius: 5px;
+}
